@@ -1,5 +1,5 @@
 {
-  "name": "kirby-vite-basic-kit",
+  "name": "@cmessinides/kirby-starter",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -9,11 +9,15 @@
     "build": "vite build",
     "preview": "npm run build && npm run server"
   },
-  "author": "arnoson",
+  "author": "cmessinides",
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^8.0.0",
     "vite": "^5.0.0",
     "vite-plugin-kirby": "^5.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "tailwindcss": "^4.0.0"
   }
 }

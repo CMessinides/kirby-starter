@@ -1,1 +1,1 @@
-Title: Kirby Vite Basic Example
+Title: My Kirby Starter

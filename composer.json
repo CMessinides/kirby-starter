@@ -1,6 +1,6 @@
 {
-  "name": "arnoson/kirby-vite-basic-kit",
-  "description": "A simple Kirby CMS + Vite starter kit",
+  "name": "cmessinides/kirby-starter",
+  "description": "Kirby + Vite + Twig + Tailwind",
   "type": "project",
   "license": "MIT",
   "require": {
