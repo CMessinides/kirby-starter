@@ -1,10 +1,12 @@
-# Kirby Vite Basic Kit
+# My Kirby Starter
 
 ## Features
 
-- ⚡️ Uses [Vite](https://vitejs.dev/) with [kirby-vite](https://github.com/arnoson/kirby-vite) plugin
-- 🔄 Live Reloading for Kirby templates, snippets, content, ... changes
-- 📂 [Public folder structure](https://getkirby.com/docs/guide/configuration/custom-folder-setup#public-and-private-folder-setup)
+- Bundling and dev server with [Vite](https://vitejs.dev/) via [kirby-vite](https://github.com/arnoson/kirby-vite) plugin
+- Styling with [Tailwind](https://tailwindcss.com/) v4
+- Templating in [Twig](https://twig.symfony.com/) via [kirby-twig](https://github.com/wearejust/kirby-twig)
+
+*Based on the [kirby-vite starter kit](https://github.com/arnoson/kirby-vite-basic-kit).*
 
 ## Installation
 
@@ -43,17 +45,3 @@ Build your optimized frontend assets to `public/dist`:
 ```
 npm run build
 ```
-
-## Deployment
-
-### Manually
-
-Upload the repository to your web server and point your web server to the repository's `public` folder.
-
-### Rsync
-
-If you have ssh access you can use rsync to automate the upload/sync.
-
-### Git
-
-You can also deploy your repository with git. Then you have to run the [installation](#installation) steps again on your web server.
